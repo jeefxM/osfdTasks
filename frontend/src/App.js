@@ -15,7 +15,7 @@ function App() {
       {typeof backEndData.message === "undefined" ? (
         <p>Loading ...</p>
       ) : (
-        backEndData.message
+        <h1>backEndData.message</h1>
       )}
     </div>
   );
